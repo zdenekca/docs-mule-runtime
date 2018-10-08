@@ -20,7 +20,7 @@ Software requirements are:
 +
 [NOTE]
 --
-If you are planning to run a Standalone instance of Mule Runtime Anypoint Studio freezes during start up if your installed JDK runtime is 1.8 Update 152 (1.8.0_152). It is recommended that you downgrade back to 1.8.0_151.
+If you are planning to run a Standalone instance of Mule Runtime, Anypoint Studio freezes during start up if your installed JDK runtime is 1.8 Update 152 (1.8.0_152). It is recommended that you downgrade back to 1.8.0_151.
 --
 ** IBM JDK 1.8
 ** OpenJDK 8 (JDK 1.8.0_162 recommended)
@@ -33,8 +33,12 @@ Mule Runtime does not require a database unless you need to access a data store.
 [%header,cols="20a,75a"]
 |===
 |Software |Version
-|Operating systems |MacOS 10.11.4, HP-UX 11i V3, AIX 7.2, Windows 2012 R2 Server, Windows 8.1, Solaris 11.3, RHEL 7, Ubuntu Server 15.04 and 16.04, any other Linux distribution which runs a supported JDK and Linux kernel 3.13+
-|Application servers |Tomcat 7 and 8, WebLogic 12c, WebSphere 8, WildFly 8 and 9, Jetty 8 and 9
-|Databases |Oracle 11g, Oracle 12c, MySQL 5.5+, IBM DB2 10, PostgreSQL 9, Derby 10, Microsoft SQL Server 2014
+[%header,cols="15a,85a"]
+|===
+|Software |Version
+| JDK | JDK 1.8.0 (Recommended JDK 1.8.0_151/52)
+| OS | MacOS 10.11.x, HP-UX 11i V3, AIX 7.2, Windows 2016 Server, Windows 10, Solaris 11.3, RHEL 7, Ubuntu Server 16.04
+| Application Servers | Tomcat 7, Tomcat 8, Weblogic 12c, Wildfly 8, Wildfly 9, Websphere 8, Jetty 8, Jetty 9
+| Databases | Oracle 11g, Oracle 12c, MySQL 5.5+, DB2 10, PostgreSQL 9, Derby 10, Microsoft SQL Server 2014
 |Browsers for working on Anypoint Platform | Firefox or Chrome (latest), Internet Explorer 10 or later; minimum screen resolution of 1024x768
 |===
