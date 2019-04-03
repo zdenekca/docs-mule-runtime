@@ -115,7 +115,7 @@ Then you can use the Input parameter of another operation in your flow (such as 
 
 [source,xml,linenums]
 ----
-<db:select config-ref="dbConfig" target="discoveryDate" targetValue="#[payload[0].discoveryDate]">
+<db:select config-ref="dbConfig" target="" targetValue="">
     <db:sql>select * from PLANET where discoveryDate > :discoveryDate</db:sql>
     <db:input-parameters>
         #[{'discoveryDate' : vars.discoveryDate}]
